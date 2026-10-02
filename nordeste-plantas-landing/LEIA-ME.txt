@@ -1,0 +1,38 @@
+NORDESTE PLANTAS — LANDING PAGE
+
+Projeto baseado no esboço visual aprovado.
+
+Arquivos:
+- index.html
+- style.css
+- script.js
+- images/
+
+IMPORTANTE:
+1. Troque todas as ocorrências de 55NUMERO pelo WhatsApp real da empresa.
+2. As imagens da pasta images/ são placeholders funcionais criados para manter o layout exatamente estruturado.
+3. Substitua cada arquivo pela foto real correspondente mantendo o mesmo nome para não precisar alterar o HTML.
+4. A marca do cabeçalho está em texto para manter o protótipo funcional. Se receber a logo original em PNG transparente, substitua no header/rodapé.
+5. O layout já possui responsividade para desktop, tablet e celular.
+
+
+ATUALIZAÇÃO V2:
+- A seção "Do viveiro até você" agora possui fundo verde.
+- Foram removidas imagens dessa etapa.
+- Os 5 passos usam ícones/emojis, numeração e linha de conexão.
+- Há uma observação indicando que fotos reais podem ser adicionadas futuramente.
+
+
+ATUALIZAÇÃO V3:
+- Mais fiel ao mockup aprovado.
+- Todas as árvores artificiais foram removidas visualmente.
+- Onde ainda faltam fotos reais, há somente blocos verdes.
+- Hero, cards, tipografia e espaçamentos foram reduzidos e refinados.
+- A seção verde Do viveiro até você foi mantida.
+
+V4: placeholders de imagem com legendas explicativas + mais detalhes gráficos e microinterações.
+
+ATUALIZAÇÃO V5
+1. Hero voltou ao visual com degradê e espaço real para imagem em images/hero-viveiro.jpg.
+2. A seção de catálogo foi movida para antes das frutíferas e renomeada para Nossas plantas.
+3. Como funciona agora possui fundo claro para aumentar o contraste com a seção verde anterior.
