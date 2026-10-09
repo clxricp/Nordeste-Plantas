@@ -50,6 +50,9 @@ siteNav.querySelectorAll("a").forEach(link => {
 // Atualização imediata evita conflitos ao trocar rapidamente de categoria.
 const filterButtons = [...document.querySelectorAll('.filter-btn')];
 const productCards = [...document.querySelectorAll('.product-card')];
+document.getElementById('viewFruitPlants').addEventListener('click', () => {
+  document.querySelector('.filter-btn[data-filter="frutiferas"]').click();
+});
 filterButtons.forEach(button => {
   button.addEventListener('click', () => {
     const filter = button.dataset.filter;
