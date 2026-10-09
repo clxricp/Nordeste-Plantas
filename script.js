@@ -21,7 +21,7 @@ document.querySelectorAll('.product-details').forEach(button => {
     const image = card.querySelector('.product-photo img');
     dialogImage.src = image.getAttribute('src');
     dialogImage.alt = image.alt;
-    dialogQuote.href = 'https://wa.me/55NUMERO?text=' + encodeURIComponent(
+    dialogQuote.href = 'https://wa.me/5585981486355?text=' + encodeURIComponent(
       `Olá! Gostaria de um orçamento para ${name}. Podem me enviar fotos atuais e informar os portes disponíveis?`
     );
     plantDialog.showModal();
