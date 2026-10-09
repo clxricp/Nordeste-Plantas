@@ -1558,6 +1558,7 @@ body.dialog-open { overflow:hidden; }
 .hero-v6 .btn-accent { background: #ff9418; color: #fff; }
 .hero-v6 .minimum-order { display: inline-block; padding: 14px 18px; border: 1px solid rgba(255,255,255,.45); border-radius: 10px; background: rgba(7,24,11,.5); }
 .products-section .product-card[hidden] { display: none; }
+#plantFilters { scroll-margin-top: 104px; }
 .filter-btn:focus-visible, .hero-v6 a:focus-visible { outline: 3px solid #ff9418; outline-offset: 4px; }
 @media(max-width:1050px) { .products-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media(max-width:650px) {

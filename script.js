@@ -50,19 +50,25 @@ siteNav.querySelectorAll("a").forEach(link => {
 // Atualização imediata evita conflitos ao trocar rapidamente de categoria.
 const filterButtons = [...document.querySelectorAll('.filter-btn')];
 const productCards = [...document.querySelectorAll('.product-card')];
-document.getElementById('viewFruitPlants').addEventListener('click', () => {
-  document.querySelector('.filter-btn[data-filter="frutiferas"]').click();
-});
+function selectPlantCategory(filter) {
+  filterButtons.forEach(button => {
+    const selected = button.dataset.filter === filter;
+    button.classList.toggle('active', selected);
+    button.setAttribute('aria-pressed', String(selected));
+  });
+  productCards.forEach(card => {
+    card.hidden = filter !== 'all' && !card.dataset.category.split(' ').includes(filter);
+  });
+}
+
 filterButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const filter = button.dataset.filter;
-    filterButtons.forEach(item => {
-      const selected = item === button;
-      item.classList.toggle('active', selected);
-      item.setAttribute('aria-pressed', String(selected));
-    });
-    productCards.forEach(card => {
-      card.hidden = filter !== 'all' && !card.dataset.category.split(' ').includes(filter);
-    });
+  button.addEventListener('click', () => selectPlantCategory(button.dataset.filter));
+});
+
+document.getElementById('viewFruitPlants').addEventListener('click', event => {
+  event.preventDefault();
+  selectPlantCategory('frutiferas');
+  requestAnimationFrame(() => {
+    document.getElementById('plantFilters').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
