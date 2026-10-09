@@ -1,0 +1,15 @@
+NORDESTE PLANTAS — V6
+
+Alterações principais:
+- Hero de alto impacto com imagem de fundo, overlay escuro, CTA para orçamento e pedido mínimo de R$ 5.000,00.
+- Catálogo filtrável em JavaScript: Todas, Frutíferas, Nativas, Palmeiras, Exóticas e Plantas adultas.
+- Cada produto possui botão individual de orçamento no WhatsApp.
+- Destaque de frutíferas mantido.
+- Seção "Como funciona" clara, para contrastar com a área verde anterior.
+- Seção de logística/entregas e CTA final.
+- Layout responsivo.
+
+IMPORTANTE:
+1. Troque todas as ocorrências de 55NUMERO pelo WhatsApp real.
+2. O hero usa images/hero-viveiro.png. Substitua pelo material real se desejar.
+3. Os demais espaços de foto são placeholders descritivos. Quando receber as fotos reais, substitua cada bloco por uma tag <img> mantendo o card.
